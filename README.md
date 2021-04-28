@@ -1,4 +1,4 @@
-# Politeiagui restructure POC
+# Politeiagui restructuring POC
 
 **This is just a POC and most likely will change during design phase.**
 
