@@ -19,11 +19,11 @@
 
 1. It aggregates everything state related to a unique state tree. Not ideal for the composable plugin structure we are aiming to accomplish.
 
-<placeholder>state_tree img</placeholder>
+￼![image](https://user-images.githubusercontent.com/13955303/116419419-6a86db80-a813-11eb-9278-23d648e8dfa4.png)
 
 2. Our state tree is too crowded because we have to store loading and response statuses in the redux store. See this simple loading of proposals in discussion on Politeia:
 
-<placeholder>state_tree actions</placeholder>
+￼![image](https://user-images.githubusercontent.com/13955303/116419463-76729d80-a813-11eb-9dfe-b7c3c2d6f465.png)
 
 3. Data fetching in redux is very verbose, right now to do a simple fetch we need to create:
     * Two actions (REQUEST and RECEIVE)
